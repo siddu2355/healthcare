@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Health Care</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <img src="icons/icon.png" data-aos="fade-left" class="icon">
+            <div class="space"></div>
+            <div class="link-div">
+                <a href="#centers-list" class="nav-link">Health Centers</a>
+                <a href="#records" class="nav-link">Records</a>
+                <a href="" class="nav-link">Health Tips</a>
+                <a href="" class="nav-link">Sign Up / Log In</a>
+            </div>
+        </nav>
+        <div class="title-div">
+            <div class="title-image-div">
+                <img src="images/ma1.jpg" data-aos="zoom-in" class="title-image" alt="">
+            </div>
+            <div class="title-heading">
+                <h1 data-aos="fade-up" style="color:#000">HEALTH CARE</h1>
+                <p style="color:#000; font-size: 1.5rem; font-style: italic;" data-aos="fade-up-left">We Care for your Care....</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="centers-title">
+            <h2 data-aos="fade-left">
+                About Us
+            </h2>
+        </div>
+        <div class="container">
+            <div class="box">
+                <img src="images/icons8-last-24-hours-48.png">
+                <p>24/7 services</p>
+            </div>
+            <div class="box">
+                <img src="images/icons8-doctors-64.png">
+                <p>3000+ Doctors</p>
+            </div>
+            <div class="box">
+                <img src="images/icons8-hospital-64.png">
+                <p>500+ Centers</p>
+            </div>
+        </div>
+        <h3 data-aos="zoom-out">Best Health Care Centers</h3>
+        <div class="grid-1X2">
+            <div class="grid-div-alignment"><img src="images/hosp.jpg" data-aos="zoom-in" class="grid-image" alt=""></div>
+            <div class="grid-div-alignment" style="display:flex; flex-direction:column">
+                <p class="para" data-aos="zoom-in-up">We have the best health care centers with very good infrastructure and best doctors and 24 hours services are available</p> 
+            <a href="#"><span class="learn-more">LEARN MORE</span></a>
+            </div>
+        </div>
+        <h3 data-aos="zoom-in">Best Doctors</h3>
+        <div class="grid-1X2">
+            <div class="grid-div-alignment" style="display:flex; flex-direction:column">
+                <p class="para" data-aos="zoom-in-up">Our specialists top priority is you. Which means you get the answers and assurance you deserve with accuracy you can trust.</p> 
+            <a href="#"><span class="learn-more">LEARN MORE</span></a>
+            </div>
+            <div class="grid-div-alignment" data-aos="fade-up-right"><img src="images/doc.jpg" data-aos="zoom-in-right" class="grid-image" alt=""></div>
+        </div>
+        <div class="centers">
+            <div class="centers-title">
+                <h2 data-aos="zoom-in">
+                    Find Health Care Centers Near You
+                </h2>
+            </div>
+            <div class="centers-list-div">
+                <select id="centers-list" data-aos="flip-up">
+                    <option value="1">Find the Nearest Health Care Center</option>
+                    <option value="2">HYderabad</option>
+                    <option value="3">vijayawada</option>
+                    <option value="4">Guntur</option>
+                    <option value="5">.....</option>
+                </select>
+                 
+                <a class="search-btn" href="#"><span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="15" height="15"
+                    viewBox="0 0 24 24"
+                    style=" fill:gray;">    <path d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z"></path></svg> <p style="display: inline;">search</p></span></a>
+            </div>
+        </div>
+        <div class="black-div testimonial clipped-black-div">
+            <div class="grid-1X2 grid-div-alignment" >
+                <div><img src="images/best1.jpg" data-aos="flip-right" class="grid-image" alt=""></div>
+                <div class="grid-div-alignment"><p class="para" style="margin-left:2rem">Our Hyderabad branch is the best Health Care center 
+                ,It is also recognized by WHO.</p> 
+                </div>
+            </div>
+            
+        </div>
+        <div id="records">
+            <div class="centers-title">
+                <h2 data-aos="zoom-in-left">
+                    Find Your Old Records
+                </h2>
+            </div>
+            <div class="records-div">
+                <select name="" id="centers-list" data-aos="flip-down">
+                    <option class="option" value="1">Select Your Health Care Center</option>
+                    <option value="2">HYderabad</option>
+                    <option value="3">vijayawada</option>
+                    <option value="4">Guntur</option>
+                    <option value="5">.....</option>
+                </select>
+                <input type="text" id="name" placeholder="Full Name" data-aos="flip-up">
+                <a class="search-btn" href="#"><span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="15" height="15"
+                    viewBox="0 0 24 24"
+                    style=" fill:gray;">    <path d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z"></path></svg> <p style="display: inline;">search</p></span></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="black-div grid-1X5" style="padding: 3rem 0; margin-top: 3rem;">
+            <div>
+                <p style="color:#adacac; margin-left: 1rem;">&copy; copy rights 2022 belong to Health Care.</p>
+            </div>
+            <div>
+                <ul>
+                    <li class="footer-link">Branches</li>
+                    <li>Hyderabad</li>
+                    <li>vijayawada</li>
+                    <li>Guntur</li>
+                    <li>Many More</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="footer-link">Services</li>
+                    <li>Opthamology</li>
+                    <li>Dermatology</li>
+                    <li>Dental</li>
+                    <li>ENT</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li style="color: black;">.  </li>
+                    <li style="color: black;">.   </li>
+                    <li>contact us</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
